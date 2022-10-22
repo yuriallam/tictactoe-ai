@@ -1,0 +1,14 @@
+version: "3.9"
+
+name: tictactoe-ai
+services:
+    front:
+        container_name: tictactoe-ai-front
+        build: ./front
+        ports:
+            - "3000:3000"
+    server:
+        container_name: tictactoe-ai-server
+        build: ./server
+        ports:
+            - "5000:5000"

@@ -1,0 +1,69 @@
+.square {
+    border: 1px black solid;
+    font-size: 100px;
+}
+
+.square-aqua {
+    background-color:aqua;
+}
+
+.square-red {
+    background-color:red;
+}
+
+.squareValue {
+    font-size: 60px;
+}
+
+.show1 {
+    animation-name: show1;
+    animation-duration: 1s;
+}
+.show2 {
+    animation-name: show1;
+    animation-duration: 1.2s;
+}
+.show3 {
+    animation-name: show1;
+    animation-duration: 1.4s;
+}
+.show4 {
+    animation-name: show1;
+    animation-duration: 1s;
+}
+.show5 {
+    animation-name: show1;
+    animation-duration: 1.2s;
+}
+.show6 {
+    animation-name: show1;
+    animation-duration: 1.4s;
+}
+.show7 {
+    animation-name: show1;
+    animation-duration: 1.6s;
+}
+.show8 {
+    animation-name: show1;
+    animation-duration: 1.8s;
+}
+.show9 {
+    animation-name: show1;
+    animation-duration: 2s;
+}
+
+.show {
+    animation-name: show;
+    animation-duration: 2s;
+}
+
+
+@keyframes show1 {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes show {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
